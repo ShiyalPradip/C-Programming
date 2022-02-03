@@ -1,0 +1,49 @@
+// Program For Separate Even & Odd Numbers
+#include<stdio.h>
+#include<conio.h>
+void Even_Odd()
+{
+	long Choice,No[100],even[100],odd[100];
+   int  i=0,j=0,k=0,l,m;
+   printf("\t\t\tProgram For Separate Even & Odd Numbers\n");
+   for(i=0; i<80; i++) printf("*");
+
+   printf("How Many Number You Want:- ");
+   scanf("%ld",&Choice);
+   window(1,1,80,25);
+   textbackground(BLACK);
+   clrscr();
+	printf("\nEnter %ld Elementes:- \n",Choice);
+	for(i=0; i<Choice; i++)
+		{
+			scanf("%ld",&No[i]);
+			if(No[i]%2==0)
+				{
+					even[j++]=No[i];
+				}
+			else
+				{
+					odd[k++]=No[i];
+				}
+		}
+	window(1,1,80,25);
+	textbackground(BLACK);
+	clrscr();
+	printf("\nEven No:- ");
+	for(l=0; l<j; l++)
+		{
+			printf("%ld ",even[l]);
+		}
+	printf("\nOdd No :- ");
+	for(m=0; m<k; m++)
+		{
+			printf("%ld ",odd[m]);
+		}
+}
+void main()
+{
+	 void Even_Odd(void);
+ clrscr();
+	 Even_Odd();
+ getch();
+}
