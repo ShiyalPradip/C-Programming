@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void ASCII()
+{
+   int i;
+   for(i=0; i<242; i++)
+      {
+	 printf("%d  %c\t",i,i);
+      }
+}
+
+void main()
+{
+   void ASCII(void);
+ clrscr();
+   ASCII();
+ getch();
+}
