@@ -8,4 +8,5 @@ void main()
      initgraph(&Gd,&Gm,"C:\\TC\\BGI");
      circle(300,200,200);
  getch();
+ closegraph();
 }
