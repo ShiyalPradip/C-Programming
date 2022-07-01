@@ -10,73 +10,7 @@ struct Link_List
 	struct Link_List *Next;
 } *New_Node, *First, *Temp, *Dummy;
 
-void Create(void);
-void Display(void);
-void Insert_First(void);
-void Delete_First(void);
-void Insert_Last(void);
-void Delete_Last(void);
-void Search(void);
-void Insert_Between(void);
-void Update(void);
-void Delete_Specific(void);
-
 int Flag=0;
-
-void main()
-{
-	char Choice;
-
-	while(1)
-		{
-			clrscr();
-			textcolor(RED);
-			gotoxy(37,2);  cprintf("Choices");
-			textcolor(GREEN);
-			gotoxy(17,3);  cprintf("----------------------------------------------");
-			gotoxy(17,15); cprintf("----------------------------------------------");
-			textcolor(CYAN);
-			gotoxy(29,4);  cprintf("Press [#] For Exit");
-			gotoxy(29,5);  cprintf("Press [0] For Create");
-			gotoxy(29,6);  cprintf("Press [1] For Display");
-			gotoxy(29,7);  cprintf("Press [2] For Insert First");
-			gotoxy(29,8);  cprintf("Press [3] For Delete First");
-			gotoxy(29,9);  cprintf("Press [4] For Insert Last");
-			gotoxy(29,10); cprintf("Press [5] For Delete Last");
-			gotoxy(29,11); cprintf("Press [6] For Search");
-			gotoxy(29,12); cprintf("Press [7] For Insert Between");
-			gotoxy(29,13); cprintf("Press [8] For Update");
-			gotoxy(29,14); cprintf("Press [9] For Delete Specific");
-
-			textcolor(RED);
-			gotoxy(25,17); cprintf("Enter Your Choice:- ");
-			Choice=getch();
-
-			switch(Choice)
-				{
-					case '#': exit(0);
-					case '0': Create();				getch(); break;
-					case '1': Display();				getch(); break;
-					case '2': Insert_First();		getch(); break;
-					case '3': Delete_First();		getch(); break;
-					case '4': Insert_Last();		getch(); break;
-					case '5': Delete_Last();		getch(); break;
-					case '6': Search();				getch(); break;
-					case '7': Insert_Between();	getch(); break;
-					case '8': Update();				getch(); break;
-					case '9': Delete_Specific();  getch(); break;
-					default: textcolor(RED);
-								gotoxy(30,19); cprintf("--------: Error :--------");
-
-								textcolor(YELLOW+BLINK);
-								gotoxy(35,21); cprintf("Invailid Choice");
-
-								textcolor(CYAN);
-								gotoxy(29,23); cprintf("Press Any Key For Continue");
-								getch();
-				}
-		}
-}
 
 void Create(void)
 {
@@ -349,5 +283,66 @@ void Delete_Specific(void)
 		{
 			textcolor(YELLOW+BLINK);
 			gotoxy(33,13); cprintf("%d Is Not Found",Delete_Now);
+		}
+}
+
+void main()
+{
+	char Choice;
+
+	while(1)
+		{
+			clrscr();
+
+			textcolor(RED);
+			gotoxy(37,2);  cprintf("Main Manu");
+
+			textcolor(GREEN);
+
+			gotoxy(17,3);  cprintf("----------------------------------------------");
+			gotoxy(17,15); cprintf("----------------------------------------------");
+
+			textcolor(CYAN);
+
+			gotoxy(29,4);  cprintf("Press [#] For Exit");
+			gotoxy(29,5);  cprintf("Press [0] For Create");
+			gotoxy(29,6);  cprintf("Press [1] For Display");
+			gotoxy(29,7);  cprintf("Press [2] For Insert First");
+			gotoxy(29,8);  cprintf("Press [3] For Delete First");
+			gotoxy(29,9);  cprintf("Press [4] For Insert Last");
+			gotoxy(29,10); cprintf("Press [5] For Delete Last");
+			gotoxy(29,11); cprintf("Press [6] For Search");
+			gotoxy(29,12); cprintf("Press [7] For Insert Between");
+			gotoxy(29,13); cprintf("Press [8] For Update");
+			gotoxy(29,14); cprintf("Press [9] For Delete Specific");
+
+			textcolor(RED);
+
+			gotoxy(25,17); cprintf("Enter Your Choice:- ");
+			Choice=getch();
+
+			switch(Choice)
+				{
+					case '#': exit(0);
+					case '0': Create();			   getch();	break;
+					case '1': Display();			   getch();	break;
+					case '2': Insert_First();	   getch();	break;
+					case '3': Delete_First();	   getch();	break;
+					case '4': Insert_Last();	   getch();	break;
+					case '5': Delete_Last();	   getch();	break;
+					case '6': Search();			   getch();	break;
+					case '7': Insert_Between();   getch();	break;
+					case '8': Update();			   getch();	break;
+					case '9': Delete_Specific();  getch(); break;
+					default: textcolor(RED);
+								gotoxy(30,19); cprintf("--------: Error :--------");
+
+								textcolor(YELLOW+BLINK);
+								gotoxy(35,21); cprintf("Invailid Choice");
+
+								textcolor(CYAN);
+								gotoxy(30,23); cprintf("Press Any Key For Continue");
+								getch();
+				}
 		}
 }
