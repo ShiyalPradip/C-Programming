@@ -2,7 +2,7 @@
 #include<graphics.h>
 void main()
 {
-	int Gd=0,Gm,i,R;
+	int Gd=0,Gm,i;
 	initgraph(&Gd,&Gm,"C:\\TC\\BGI");
 
 	setfillstyle(WIDE_DOT_FILL,YELLOW);
