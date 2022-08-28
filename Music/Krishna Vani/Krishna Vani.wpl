@@ -1,0 +1,21 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 12.0.19041.1865"/>
+        <meta name="ItemCount" content="9"/>
+        <title>Krishna Vani</title>
+    </head>
+    <body>
+        <seq>
+            <media src="D:\Music\Krishna Vani\Vaani No_1.mp3" tid="{D52E1D64-8DBF-4B93-AB91-498FCE4CFC0F}"/>
+            <media src="D:\Music\Krishna Vani\Vaani No_2.mp3"/>
+            <media src="D:\Music\Krishna Vani\Vaani No_3.mp3"/>
+            <media src="D:\Music\Krishna Vani\Vaani No_4.mp3" tid="{30C82131-33DB-4151-9EB8-B2567709D031}"/>
+            <media src="D:\Music\Krishna Vani\Vaani No_5.mp3" tid="{0345A91C-E567-45CD-95D0-D731CE5DD0E5}"/>
+            <media src="D:\Music\Krishna Vani\Vaani No_6.mp3" tid="{C69FFAFF-C7EA-4700-8EC7-2E8EBE175D6F}"/>
+            <media src="D:\Music\Krishna Vani\Vaani No_7.mp3" tid="{6B19DD51-A79F-45BB-A234-34BA654A7222}"/>
+            <media src="D:\Music\Krishna Vani\Vaani No_9.mp3"/>
+            <media src="D:\Music\Krishna Vani\Vaani No_10.mp3" tid="{8B119572-47D7-48AD-81BC-6B780632E8E8}"/>
+        </seq>
+    </body>
+</smil>

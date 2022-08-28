@@ -1,0 +1,33 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 12.0.19041.1865"/>
+        <meta name="ItemCount" content="21"/>
+        <title>Songs</title>
+    </head>
+    <body>
+        <seq>
+            <media src="D:\Music\Songs\Vaste.mp3" tid="{C2D139B7-752C-4F9F-9517-63BD0210B772}"/>
+            <media src="D:\Music\Songs\Leja Re.mp3" tid="{5C21AE37-3F4D-4C32-82F3-71821089D07A}"/>
+            <media src="D:\Music\Songs\Lute Gaye.mp3" cid="{29A02F0B-DEB8-435D-A273-3D5103F09FB9}" tid="{773EADE2-E74C-44BE-B9AE-C8F8C5DC36DA}"/>
+            <media src="D:\Music\Songs\Akh Lad Jave.mp3" tid="{9CCEFFF6-F30C-43B3-B212-CD83455AAE98}"/>
+            <media src="D:\Music\Songs\Khoyaa Hain.mp3" tid="{7EBB2A2F-CD57-402B-B563-70523D29BDD4}"/>
+            <media src="D:\Music\Songs\Love You Zindagi.mp3" tid="{58586C4E-26AE-4DDC-B2D7-DEE789C42F87}"/>
+            <media src="D:\Music\Songs\Kisi Se Pyaar Ho Jaaye.mp3" cid="{28759F70-D2DB-4C85-A671-EFCF25DE0359}" tid="{F282F85A-2C3E-40E0-8880-155A75E8C28D}"/>
+            <media src="D:\Music\Songs\Meri Zindagi Hai Tu.mp3" cid="{4872EFF5-1353-4CAF-BDE8-BACE79E15F38}" tid="{34084CEA-F568-4182-BC3D-26E566DB4C1A}"/>
+            <media src="D:\Music\Songs\Raataa Lambiyaa.mp3" cid="{1FA32E50-348E-4AB5-8139-CFA0A8C6E077}" tid="{07E9B472-EC64-4D09-B4B5-F967E5166B2E}"/>
+            <media src="D:\Music\Songs\Teraa Huaa.mp3" cid="{5FA497DE-BB38-4C4A-8D15-204FA5B3E592}" tid="{730AF02B-63AE-46D3-AC42-7D22278BF5E3}"/>
+            <media src="D:\Music\Songs\Tum Hi Aana.mp3" tid="{BA60BA24-EF33-425A-ADA6-B8E370F0253F}"/>
+            <media src="D:\Music\Songs\Rangtaari.mp3" cid="{BB96448D-D460-42FA-AD44-F8051BF084BF}" tid="{A54707B8-5278-4355-80A6-EFE7B1E9578A}"/>
+            <media src="D:\Music\Songs\Yad Piya Ki Aane Lagi.mp3" cid="{A0122582-9E0E-4721-8E4C-7BF00A9AB2B1}" tid="{FEB635A4-3AC2-4769-89B8-BA346B1AC074}"/>
+            <media src="D:\Music\Songs\Chogada.mp3" cid="{50F9C68F-1B12-496E-B52F-9488220723FA}" tid="{0D05C7E7-D7C0-42A2-A2F0-9BB455FE73AC}"/>
+            <media src="D:\Music\Songs\Dholida.mp3" cid="{4B58D42C-2324-46A5-A617-086375801388}" tid="{F6930422-E513-4ECF-B039-9B9A09584013}"/>
+            <media src="D:\Music\Songs\Ghuangaru.mp3" tid="{5BF34B18-05BA-4974-A0EE-CE3FC32A7943}"/>
+            <media src="D:\Music\Songs\Soja Zara.mp3" cid="{C2DA095C-FEAB-40E8-8616-C00B47AD931E}" tid="{5BD77DA5-4307-44F4-BE72-F27ECEF7F94C}"/>
+            <media src="D:\Music\Songs\Teri Mitti.mp3" cid="{FE222B6B-65CC-4907-950E-89AC45B5DF67}" tid="{AB4EEE91-94BF-4BF8-AE55-8E39E346017E}"/>
+            <media src="D:\Music\Songs\Jiyo Re Baahubali.mp3" cid="{87317817-96BC-4C8A-A874-82CEEB53C14F}" tid="{3D454A62-C945-44AE-81B6-00DCCA028774}"/>
+            <media src="D:\Music\Songs\Flute 1.mp3" tid="{DD308719-2665-4C11-923E-1CF979953867}"/>
+            <media src="D:\Music\Songs\Flute 2.mp3" tid="{F4972561-C088-458D-8278-F110C547E70D}"/>
+        </seq>
+    </body>
+</smil>
