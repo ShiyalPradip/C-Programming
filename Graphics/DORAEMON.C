@@ -7,7 +7,7 @@ void main()
 
 
 	initgraph(&Gd,&Gm,"C:\\TC\\BGI");
-	initgraph(&Gd,&Gm,"C:\\TURBOC3\\BGI");
+	//initgraph(&Gd,&Gm,"C:\\TURBOC3\\BGI");
 
 	ellipse(300,150,-53,233,140,130); 
 	ellipse(272,75,0,360,27,30); 
