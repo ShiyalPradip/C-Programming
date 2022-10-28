@@ -1,0 +1,39 @@
+#include<graphics.h>
+#include<stdlib.h>
+#include<dos.h>
+#include<stdio.h>
+#include<conio.h>
+
+int  L=1,T=1,R=80,B=25,i;
+char Choice;
+int Sem=4;
+
+
+void main()
+{
+clrscr();
+window(L,T,R,B);
+			textbackground(WHITE);
+			clrscr();
+
+			window(23,9,60,17);
+			textbackground(BLACK);
+			clrscr();
+
+			textcolor(RED);
+			gotoxy(18,2); cprintf("Choice");
+
+			textcolor(GREEN);
+			gotoxy(5,3); for(i=0; i<30; i++) cprintf("-");
+			gotoxy(5,7); for(i=0; i<30; i++) cprintf("-");
+
+			textcolor(YELLOW);
+			gotoxy(10,4);  cprintf("1)   Try Again");
+			gotoxy(10,5);  cprintf("2)   Go To LogIn Page");
+			gotoxy(10,6);  cprintf("3)   Exit");
+
+			textcolor(RED);
+			gotoxy(8,8); cprintf("Enter Your Choice(1-3):- ");
+
+ getch();
+}
