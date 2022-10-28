@@ -6,7 +6,7 @@
 					  |	 Starting Data  :- 5  Augyst 2022         |
 					  |	 Ending Data    :- 14 August 2022         |
 					  |    Last Updated   :- 4  October 2022			|
-					  |    Version        :- 3.6.9					  	|                                             |
+					  |    Version        :- 3.6.9					  	|                                             
 					  |    													  	|
 					  |---------------------------------------------|
 
