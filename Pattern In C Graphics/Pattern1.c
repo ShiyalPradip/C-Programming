@@ -3,7 +3,7 @@
 void main()
 {
 	int Gd=0,Gm,i;
-	initgraph(&Gd,&Gm,"C:\\TC\\BGI");
+	initgraph(&Gd,&Gm,"C:\\TURBOC3\\BGI");
 
 	setfillstyle(WIDE_DOT_FILL,YELLOW);
 	circle(325,240,23);
