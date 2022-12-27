@@ -1,0 +1,85 @@
+#include<stdio.h>
+#include<conio.h>
+#define Enter 13
+#include "Variable.h"
+
+void main()
+{
+	int i;
+	char New[45],New1[45];
+
+	window(L,T,R,B);
+	textbackground(WHITE);
+	clrscr();
+
+	window(17,7,65,19);
+	textbackground(MAGENTA);
+	clrscr();
+
+	window(19,8,63,18);
+	textbackground(BLACK);
+	clrscr();
+
+	textcolor(YELLOW);
+	gotoxy(22,2); cprintf("User");
+
+	textcolor(LIGHTGREEN);
+	gotoxy(4,2);  cprintf("<---------------:");
+	gotoxy(27,2); cprintf(":--------------->");
+
+	fflush(stdin);
+	textcolor(LIGHTRED);
+	gotoxy(6,4);  cprintf("Enter User Name :- ");
+	gotoxy(6,5);  cprintf("Enter Password  :- ");
+	gotoxy(25,4); gets(UserName); // Enter Correct Username
+	gotoxy(25,5);
+
+	// Enter Correct Password
+	for(j=0; j!='13'; j++)  // 13 Is a ASCII Code Of ENTER Key
+		{
+			fflush(stdin);
+			Password[j]=getch();
+
+			if(Password[j]==Enter)
+				{
+					Password[j]=NULL;
+					break;
+				}
+			printf("*");
+		}
+
+	fp=fopen("User_N.dat","rb");
+	fgets(Temp_UserName,45,fp); // Taking The Correct Username From File
+	fclose(fp);
+
+	fp=fopen("User_P.dat","rb");
+	fgets(Temp_Password,45,fp); // Taking The Correct Password From File
+	fclose(fp);
+
+	// Checking If Username And Password Are Correct Or Not
+	if(strcmp(UserName,Temp_UserName)==0 && strcmp(Password,Temp_Password)==0)
+		{
+		  //This Function Will Be Called When UserName And Password Are Correct
+			textcolor(LIGHTCYAN);
+			gotoxy(6,8); cprintf("Sign in......");
+
+			textcolor(RED);
+			gotoxy(8,9); for(i=0; i<32; i++) cprintf("%c",220);
+
+			textcolor(YELLOW);
+			gotoxy(8,9);
+			for(i=0; i<32; i++)
+				{
+					cprintf("%c",220);
+					delay(130);
+				}
+  //			Main_Menu();
+		}
+	else
+		{
+		 //This Function Will Be Called When UserName And Password Are Not Correct
+	 //		if_Condition_False();
+		}
+
+ getch();
+}
